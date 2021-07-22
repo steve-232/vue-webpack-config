@@ -1,4 +1,5 @@
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
@@ -11,6 +12,7 @@ module.exports = {
     clean: true,
   },
   plugins: [
+    new Dotenv(),
     new HtmlWebpackPlugin({
       title: 'Vue Webpack Config',
       template: 'index.html',
