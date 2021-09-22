@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Paragraph from '@/components/Paragraph.vue';
+import Paragraph from '@/components/Paragraph';
 
 export default {
   components: {

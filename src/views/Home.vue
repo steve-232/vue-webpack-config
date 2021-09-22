@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import Paragraph from '@/components/Paragraph.vue';
-import Button from '@/components/Button.vue';
+import Paragraph from '@/components/Paragraph';
+import Button from '@/components/Button';
 
 export default {
   components: {
