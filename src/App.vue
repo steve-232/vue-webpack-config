@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     <router-link to="/">
+      <font-awesome-icon icon="home" />
       Home
     </router-link>
     <router-link to="/about">
+      <font-awesome-icon icon="info" />
       About
     </router-link>
     <router-view />
