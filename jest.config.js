@@ -1,8 +1,9 @@
 module.exports = {
-  moduleFileExtensions: ["js", "json", "vue"],
+  moduleFileExtensions: ['js', 'json', 'vue'],
   transform: {
-    "^.+\\.js$": "babel-jest",
-    "^.+\\.vue$": "vue-jest"
+    '^.+\\.js$': 'babel-jest',
+    '^.+\\.vue$': 'vue-jest',
   },
-  testEnvironment: 'jsdom'
-}
+  testEnvironment: 'jsdom',
+  setupFilesAfterEnv: ['<rootDir>/jest-setup.js'],
+};
